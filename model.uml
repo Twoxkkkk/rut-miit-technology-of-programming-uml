@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_JI8kMLB8EfGDKvSl7l0dVQ" name="NewModel">
+  <packageImport xmi:id="_TZ0V8LbxEfG9aNaFI4rN9w">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Component" xmi:id="_Ev9Q0LEjEfG9aNaFI4rN9w" name="Отвественный за УМР" useCase="_G8mHgLEjEfG9aNaFI4rN9w _McW70LEjEfG9aNaFI4rN9w _RrrgYLEjEfG9aNaFI4rN9w _XsrZgLEjEfG9aNaFI4rN9w _EHLg0LxsEfG9aNaFI4rN9w _MsDE4LxsEfG9aNaFI4rN9w _PZI9QLxsEfG9aNaFI4rN9w _Yr6JILxsEfG9aNaFI4rN9w _aj5lgLxsEfG9aNaFI4rN9w _cSPWoLxsEfG9aNaFI4rN9w _uCYXcLxsEfG9aNaFI4rN9w _1BookLxsEfG9aNaFI4rN9w _2iewQLxsEfG9aNaFI4rN9w _4JACILxsEfG9aNaFI4rN9w">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_G8mHgLEjEfG9aNaFI4rN9w" name="Ведение спика дисциплин с указанием кол-ва часов" subject="_Ev9Q0LEjEfG9aNaFI4rN9w">
+      <include xmi:id="_MExCcLxsEfG9aNaFI4rN9w" addition="_EHLg0LxsEfG9aNaFI4rN9w"/>
+      <include xmi:id="_O-AgcLxsEfG9aNaFI4rN9w" addition="_MsDE4LxsEfG9aNaFI4rN9w"/>
+      <include xmi:id="_SvsCULxsEfG9aNaFI4rN9w" addition="_PZI9QLxsEfG9aNaFI4rN9w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_McW70LEjEfG9aNaFI4rN9w" name="Ведение списка преподавателей кафедры" subject="_Ev9Q0LEjEfG9aNaFI4rN9w">
+      <include xmi:id="_fWiOELxsEfG9aNaFI4rN9w" addition="_Yr6JILxsEfG9aNaFI4rN9w"/>
+      <include xmi:id="_f0ZOwLxsEfG9aNaFI4rN9w" addition="_aj5lgLxsEfG9aNaFI4rN9w"/>
+      <include xmi:id="_gUWhMLxsEfG9aNaFI4rN9w" addition="_cSPWoLxsEfG9aNaFI4rN9w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_RrrgYLEjEfG9aNaFI4rN9w" name="Распределение преподавателей по дисципланам" subject="_Ev9Q0LEjEfG9aNaFI4rN9w"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_XsrZgLEjEfG9aNaFI4rN9w" name="Подсчёт суммарной нагрузки по каждому преподавателю" subject="_Ev9Q0LEjEfG9aNaFI4rN9w"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_EHLg0LxsEfG9aNaFI4rN9w" name="добавление дисциплины" subject="_Ev9Q0LEjEfG9aNaFI4rN9w"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_MsDE4LxsEfG9aNaFI4rN9w" name="изменение дисциплины" subject="_Ev9Q0LEjEfG9aNaFI4rN9w"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_PZI9QLxsEfG9aNaFI4rN9w" name="удаление дисциплины" subject="_Ev9Q0LEjEfG9aNaFI4rN9w"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Yr6JILxsEfG9aNaFI4rN9w" name="добавление преподавателя" subject="_Ev9Q0LEjEfG9aNaFI4rN9w"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_aj5lgLxsEfG9aNaFI4rN9w" name="изменение преподавателя" subject="_Ev9Q0LEjEfG9aNaFI4rN9w"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_cSPWoLxsEfG9aNaFI4rN9w" name="удаление преподавателя" subject="_Ev9Q0LEjEfG9aNaFI4rN9w"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_uCYXcLxsEfG9aNaFI4rN9w" name="Ведение списка групп по дисциплинам" subject="_Ev9Q0LEjEfG9aNaFI4rN9w">
+      <include xmi:id="_6tVnILxsEfG9aNaFI4rN9w" addition="_1BookLxsEfG9aNaFI4rN9w"/>
+      <include xmi:id="_7KcZ4LxsEfG9aNaFI4rN9w" addition="_2iewQLxsEfG9aNaFI4rN9w"/>
+      <include xmi:id="_7teOcLxsEfG9aNaFI4rN9w" addition="_4JACILxsEfG9aNaFI4rN9w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_1BookLxsEfG9aNaFI4rN9w" name="добавление группы" subject="_Ev9Q0LEjEfG9aNaFI4rN9w"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_2iewQLxsEfG9aNaFI4rN9w" name="изменение группы" subject="_Ev9Q0LEjEfG9aNaFI4rN9w"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_4JACILxsEfG9aNaFI4rN9w" name="Удаление группы" subject="_Ev9Q0LEjEfG9aNaFI4rN9w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_f8CAkLEjEfG9aNaFI4rN9w" name="Заведующий кафедрой" useCase="_i08ucLEjEfG9aNaFI4rN9w _nfMQALEjEfG9aNaFI4rN9w _i97rMLxvEfG9aNaFI4rN9w _o2JbwLxvEfG9aNaFI4rN9w _ppT-ELxvEfG9aNaFI4rN9w _vCdiILxxEfG9aNaFI4rN9w">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_i08ucLEjEfG9aNaFI4rN9w" name="Утверждение списка дисциплин, закреплённых за преподавателем" subject="_f8CAkLEjEfG9aNaFI4rN9w"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_nfMQALEjEfG9aNaFI4rN9w" name="Корректировка списка дисциплин" subject="_f8CAkLEjEfG9aNaFI4rN9w">
+      <include xmi:id="_qQJUkLxvEfG9aNaFI4rN9w" addition="_ppT-ELxvEfG9aNaFI4rN9w"/>
+      <include xmi:id="_ojPG0LxvEfG9aNaFI4rN9w" addition="_i97rMLxvEfG9aNaFI4rN9w"/>
+      <include xmi:id="_pS8sgLxvEfG9aNaFI4rN9w" addition="_o2JbwLxvEfG9aNaFI4rN9w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_i97rMLxvEfG9aNaFI4rN9w" name="Удалить дисциплину" subject="_f8CAkLEjEfG9aNaFI4rN9w"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_o2JbwLxvEfG9aNaFI4rN9w" name="Добавить дисциплину" subject="_f8CAkLEjEfG9aNaFI4rN9w"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ppT-ELxvEfG9aNaFI4rN9w" name="Изменить дисциплину" subject="_f8CAkLEjEfG9aNaFI4rN9w"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_vCdiILxxEfG9aNaFI4rN9w" name="Утверждение изменений данных о преподавателе" subject="_f8CAkLEjEfG9aNaFI4rN9w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_ugvnMLEjEfG9aNaFI4rN9w" name="Преподаватель" useCase="_v55LcLEjEfG9aNaFI4rN9w _0Q95YLEjEfG9aNaFI4rN9w _98tl0LxvEfG9aNaFI4rN9w _-ToRALxvEfG9aNaFI4rN9w _-ySi8LxvEfG9aNaFI4rN9w">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_v55LcLEjEfG9aNaFI4rN9w" name="Ведение списка дисциплин, которые он может вести" subject="_ugvnMLEjEfG9aNaFI4rN9w">
+      <include xmi:id="_FUnngLxwEfG9aNaFI4rN9w" addition="_98tl0LxvEfG9aNaFI4rN9w"/>
+      <include xmi:id="_FtBgcLxwEfG9aNaFI4rN9w" addition="_-ToRALxvEfG9aNaFI4rN9w"/>
+      <include xmi:id="_GQqZALxwEfG9aNaFI4rN9w" addition="_-ySi8LxvEfG9aNaFI4rN9w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_0Q95YLEjEfG9aNaFI4rN9w" name="Просмотр своей нагрузки" subject="_ugvnMLEjEfG9aNaFI4rN9w"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_98tl0LxvEfG9aNaFI4rN9w" name="Добавить дисциплину" subject="_ugvnMLEjEfG9aNaFI4rN9w"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_-ToRALxvEfG9aNaFI4rN9w" name="Изменить дисциплину" subject="_ugvnMLEjEfG9aNaFI4rN9w"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_-ySi8LxvEfG9aNaFI4rN9w" name="Удалить дисциплину" subject="_ugvnMLEjEfG9aNaFI4rN9w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_7IvpgLEjEfG9aNaFI4rN9w" name="Система авторизации" useCase="_9RdCcLEjEfG9aNaFI4rN9w __FhoILEjEfG9aNaFI4rN9w">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_9RdCcLEjEfG9aNaFI4rN9w" name="Вход" subject="_7IvpgLEjEfG9aNaFI4rN9w"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="__FhoILEjEfG9aNaFI4rN9w" name="Регистрация" subject="_7IvpgLEjEfG9aNaFI4rN9w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_JbjAwLEkEfG9aNaFI4rN9w" name="Отвественный за УМР">
+    <eAnnotations xmi:id="_JbjAwbEkEfG9aNaFI4rN9w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_Jbjn0LEkEfG9aNaFI4rN9w" key="Human"/>
+    </eAnnotations>
+    <generalization xmi:id="_nisagLEkEfG9aNaFI4rN9w" general="_URtSALEkEfG9aNaFI4rN9w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_MH1A0LEkEfG9aNaFI4rN9w" name="Заведующий кафедрой">
+    <eAnnotations xmi:id="_MH1n4LEkEfG9aNaFI4rN9w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_MH1n4bEkEfG9aNaFI4rN9w" key="Human"/>
+    </eAnnotations>
+    <generalization xmi:id="_mubE8LEkEfG9aNaFI4rN9w" general="_URtSALEkEfG9aNaFI4rN9w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_PyIvYLEkEfG9aNaFI4rN9w" name="Преподаватель">
+    <eAnnotations xmi:id="_PyIvYbEkEfG9aNaFI4rN9w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_PyIvYrEkEfG9aNaFI4rN9w" key="Human"/>
+    </eAnnotations>
+    <generalization xmi:id="_k_RbgLEkEfG9aNaFI4rN9w" general="_URtSALEkEfG9aNaFI4rN9w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_URtSALEkEfG9aNaFI4rN9w" name="Пользователь">
+    <eAnnotations xmi:id="_URtSAbEkEfG9aNaFI4rN9w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_URtSArEkEfG9aNaFI4rN9w" key="Human"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_XCW0sLEkEfG9aNaFI4rN9w" name="Администратор">
+    <eAnnotations xmi:id="_XCW0sbEkEfG9aNaFI4rN9w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_XCXbwLEkEfG9aNaFI4rN9w" key="Human"/>
+    </eAnnotations>
+    <generalization xmi:id="_yjEw4LxrEfG9aNaFI4rN9w" general="_URtSALEkEfG9aNaFI4rN9w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Z9GukLEkEfG9aNaFI4rN9w" memberEnd="_Z9MOILEkEfG9aNaFI4rN9w _Z9MOIbEkEfG9aNaFI4rN9w">
+    <ownedEnd xmi:id="_Z9MOILEkEfG9aNaFI4rN9w" type="_JbjAwLEkEfG9aNaFI4rN9w" association="_Z9GukLEkEfG9aNaFI4rN9w"/>
+    <ownedEnd xmi:id="_Z9MOIbEkEfG9aNaFI4rN9w" type="_G8mHgLEjEfG9aNaFI4rN9w" association="_Z9GukLEkEfG9aNaFI4rN9w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_bICQoLEkEfG9aNaFI4rN9w" memberEnd="_bICQobEkEfG9aNaFI4rN9w _bICQorEkEfG9aNaFI4rN9w">
+    <ownedEnd xmi:id="_bICQobEkEfG9aNaFI4rN9w" type="_JbjAwLEkEfG9aNaFI4rN9w" association="_bICQoLEkEfG9aNaFI4rN9w"/>
+    <ownedEnd xmi:id="_bICQorEkEfG9aNaFI4rN9w" type="_McW70LEjEfG9aNaFI4rN9w" association="_bICQoLEkEfG9aNaFI4rN9w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_b1UNYLEkEfG9aNaFI4rN9w" memberEnd="_b1UNYbEkEfG9aNaFI4rN9w _b1U0cLEkEfG9aNaFI4rN9w">
+    <ownedEnd xmi:id="_b1UNYbEkEfG9aNaFI4rN9w" type="_JbjAwLEkEfG9aNaFI4rN9w" association="_b1UNYLEkEfG9aNaFI4rN9w"/>
+    <ownedEnd xmi:id="_b1U0cLEkEfG9aNaFI4rN9w" type="_RrrgYLEjEfG9aNaFI4rN9w" association="_b1UNYLEkEfG9aNaFI4rN9w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_dGBAQLEkEfG9aNaFI4rN9w" memberEnd="_dGBnULEkEfG9aNaFI4rN9w _dGBnUbEkEfG9aNaFI4rN9w">
+    <ownedEnd xmi:id="_dGBnULEkEfG9aNaFI4rN9w" type="_JbjAwLEkEfG9aNaFI4rN9w" association="_dGBAQLEkEfG9aNaFI4rN9w"/>
+    <ownedEnd xmi:id="_dGBnUbEkEfG9aNaFI4rN9w" type="_XsrZgLEjEfG9aNaFI4rN9w" association="_dGBAQLEkEfG9aNaFI4rN9w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_fgb0QLEkEfG9aNaFI4rN9w" memberEnd="_fgb0QbEkEfG9aNaFI4rN9w _fgb0QrEkEfG9aNaFI4rN9w">
+    <ownedEnd xmi:id="_fgb0QbEkEfG9aNaFI4rN9w" type="_G8mHgLEjEfG9aNaFI4rN9w" association="_fgb0QLEkEfG9aNaFI4rN9w"/>
+    <ownedEnd xmi:id="_fgb0QrEkEfG9aNaFI4rN9w" type="_MH1A0LEkEfG9aNaFI4rN9w" association="_fgb0QLEkEfG9aNaFI4rN9w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_gM21YLEkEfG9aNaFI4rN9w" memberEnd="_gM21YbEkEfG9aNaFI4rN9w _gM21YrEkEfG9aNaFI4rN9w">
+    <ownedEnd xmi:id="_gM21YbEkEfG9aNaFI4rN9w" type="_MH1A0LEkEfG9aNaFI4rN9w" association="_gM21YLEkEfG9aNaFI4rN9w"/>
+    <ownedEnd xmi:id="_gM21YrEkEfG9aNaFI4rN9w" type="_i08ucLEjEfG9aNaFI4rN9w" association="_gM21YLEkEfG9aNaFI4rN9w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_hLYTILEkEfG9aNaFI4rN9w" memberEnd="_hLYTIbEkEfG9aNaFI4rN9w _hLYTIrEkEfG9aNaFI4rN9w">
+    <ownedEnd xmi:id="_hLYTIbEkEfG9aNaFI4rN9w" type="_MH1A0LEkEfG9aNaFI4rN9w" association="_hLYTILEkEfG9aNaFI4rN9w"/>
+    <ownedEnd xmi:id="_hLYTIrEkEfG9aNaFI4rN9w" type="_nfMQALEjEfG9aNaFI4rN9w" association="_hLYTILEkEfG9aNaFI4rN9w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_igXJELEkEfG9aNaFI4rN9w" memberEnd="_igXwILEkEfG9aNaFI4rN9w _igXwIbEkEfG9aNaFI4rN9w">
+    <ownedEnd xmi:id="_igXwILEkEfG9aNaFI4rN9w" type="_PyIvYLEkEfG9aNaFI4rN9w" association="_igXJELEkEfG9aNaFI4rN9w"/>
+    <ownedEnd xmi:id="_igXwIbEkEfG9aNaFI4rN9w" type="_v55LcLEjEfG9aNaFI4rN9w" association="_igXJELEkEfG9aNaFI4rN9w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_jh2bQLEkEfG9aNaFI4rN9w" memberEnd="_jh2bQbEkEfG9aNaFI4rN9w _jh2bQrEkEfG9aNaFI4rN9w">
+    <ownedEnd xmi:id="_jh2bQbEkEfG9aNaFI4rN9w" type="_PyIvYLEkEfG9aNaFI4rN9w" association="_jh2bQLEkEfG9aNaFI4rN9w"/>
+    <ownedEnd xmi:id="_jh2bQrEkEfG9aNaFI4rN9w" type="_0Q95YLEjEfG9aNaFI4rN9w" association="_jh2bQLEkEfG9aNaFI4rN9w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_oOE50LEkEfG9aNaFI4rN9w" memberEnd="_oOFg4LEkEfG9aNaFI4rN9w _oOFg4bEkEfG9aNaFI4rN9w">
+    <ownedEnd xmi:id="_oOFg4LEkEfG9aNaFI4rN9w" type="_9RdCcLEjEfG9aNaFI4rN9w" association="_oOE50LEkEfG9aNaFI4rN9w"/>
+    <ownedEnd xmi:id="_oOFg4bEkEfG9aNaFI4rN9w" type="_URtSALEkEfG9aNaFI4rN9w" association="_oOE50LEkEfG9aNaFI4rN9w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_pax9gLEkEfG9aNaFI4rN9w" memberEnd="_pax9gbEkEfG9aNaFI4rN9w _pax9grEkEfG9aNaFI4rN9w">
+    <ownedEnd xmi:id="_pax9gbEkEfG9aNaFI4rN9w" type="_URtSALEkEfG9aNaFI4rN9w" association="_pax9gLEkEfG9aNaFI4rN9w"/>
+    <ownedEnd xmi:id="_pax9grEkEfG9aNaFI4rN9w" type="__FhoILEjEfG9aNaFI4rN9w" association="_pax9gLEkEfG9aNaFI4rN9w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_qg2NsLEkEfG9aNaFI4rN9w" memberEnd="_qg20wLEkEfG9aNaFI4rN9w _qg20wbEkEfG9aNaFI4rN9w">
+    <ownedEnd xmi:id="_qg20wLEkEfG9aNaFI4rN9w" type="_XCW0sLEkEfG9aNaFI4rN9w" association="_qg2NsLEkEfG9aNaFI4rN9w"/>
+    <ownedEnd xmi:id="_qg20wbEkEfG9aNaFI4rN9w" type="__FhoILEjEfG9aNaFI4rN9w" association="_qg2NsLEkEfG9aNaFI4rN9w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_rttpcLEkEfG9aNaFI4rN9w" memberEnd="_rttpcbEkEfG9aNaFI4rN9w _rttpcrEkEfG9aNaFI4rN9w">
+    <ownedEnd xmi:id="_rttpcbEkEfG9aNaFI4rN9w" type="_XCW0sLEkEfG9aNaFI4rN9w" association="_rttpcLEkEfG9aNaFI4rN9w"/>
+    <ownedEnd xmi:id="_rttpcrEkEfG9aNaFI4rN9w" association="_rttpcLEkEfG9aNaFI4rN9w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_WM1FkLbwEfG9aNaFI4rN9w" name="Пользователь" visibility="public" isAbstract="true">
+    <ownedAttribute xmi:id="_WNQG4LbxEfG9aNaFI4rN9w" name="Фамилия" visibility="private" isReadOnly="true" aggregation="shared">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_xhwkcLbyEfG9aNaFI4rN9w" name="Имя" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_13hDwLbyEfG9aNaFI4rN9w" name="Отчество" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MuDMELbyEfG9aNaFI4rN9w" name="passwordHash" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_NlbVcLbxEfG9aNaFI4rN9w" name="Вход в систему" visibility="private"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_UEX5YLbyEfG9aNaFI4rN9w" name="Преподаватель" visibility="public">
+    <generalization xmi:id="_PoV2ILb2EfG9aNaFI4rN9w" general="_WM1FkLbwEfG9aNaFI4rN9w"/>
+    <ownedAttribute xmi:id="_9rzfcLbyEfG9aNaFI4rN9w" name="Должность" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_XNqJELbzEfG9aNaFI4rN9w" name="Стаж" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_o1Pq0LbzEfG9aNaFI4rN9w" name="Составление списка своих дисциплин" visibility="private"/>
+    <ownedOperation xmi:id="_saO0gLbzEfG9aNaFI4rN9w" name="Просмотр своей нагрузки" visibility="private"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_10w1QLbzEfG9aNaFI4rN9w" name="Администратор" visibility="public">
+    <generalization xmi:id="__W0IYLb1EfG9aNaFI4rN9w" general="_WM1FkLbwEfG9aNaFI4rN9w"/>
+    <ownedOperation xmi:id="_6zn78LbzEfG9aNaFI4rN9w" name="вход в систему" visibility="private"/>
+    <ownedOperation xmi:id="_A8y5oLb0EfG9aNaFI4rN9w" name="Регистрация нового пользователя)" visibility="private">
+      <ownedParameter xmi:id="_HGyWsLb0EfG9aNaFI4rN9w" type="_WM1FkLbwEfG9aNaFI4rN9w"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Spb6gLb0EfG9aNaFI4rN9w" name="Заведующий кафедры" visibility="public">
+    <generalization xmi:id="_RN9wILb2EfG9aNaFI4rN9w" general="_WM1FkLbwEfG9aNaFI4rN9w"/>
+    <ownedOperation xmi:id="_VPAOkLb0EfG9aNaFI4rN9w" name="Утверждение списка дисциплин" visibility="private"/>
+    <ownedOperation xmi:id="_fc-ecLb0EfG9aNaFI4rN9w" name="Корректировка списка дисциплин" visibility="private"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_nlbMQLb0EfG9aNaFI4rN9w" name="Отвественный за УМР" visibility="public">
+    <generalization xmi:id="_QQ65ELb2EfG9aNaFI4rN9w" general="_WM1FkLbwEfG9aNaFI4rN9w"/>
+    <ownedOperation xmi:id="_wMXz8Lb0EfG9aNaFI4rN9w" name="Составление списка дисциплин" visibility="private"/>
+    <ownedOperation xmi:id="_yhwW8Lb0EfG9aNaFI4rN9w" name="Составление списка преподавателей кафедры" visibility="private"/>
+    <ownedOperation xmi:id="_0mkuYLb0EfG9aNaFI4rN9w" name="Распределение преподавателей по дисциплинам" visibility="private"/>
+    <ownedOperation xmi:id="_5wmjQLb0EfG9aNaFI4rN9w" name="Подсчёт суммарной нагрузки по каждому преподавателю" visibility="private"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_7EeUALb2EfG9aNaFI4rN9w" name="Составление списка дисциплин" visibility="public"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_eFR6MLxvEfG9aNaFI4rN9w" memberEnd="_eFShQLxvEfG9aNaFI4rN9w _eFTIULxvEfG9aNaFI4rN9w">
+    <ownedEnd xmi:id="_eFShQLxvEfG9aNaFI4rN9w" type="_JbjAwLEkEfG9aNaFI4rN9w" association="_eFR6MLxvEfG9aNaFI4rN9w"/>
+    <ownedEnd xmi:id="_eFTIULxvEfG9aNaFI4rN9w" type="_uCYXcLxsEfG9aNaFI4rN9w" association="_eFR6MLxvEfG9aNaFI4rN9w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_3XLm0LxwEfG9aNaFI4rN9w" name="Администратор" useCase="_60lh0LxwEfG9aNaFI4rN9w _YKSQgLxxEfG9aNaFI4rN9w _aCAnILxxEfG9aNaFI4rN9w _i4RAsLxyEfG9aNaFI4rN9w _FocbELxzEfG9aNaFI4rN9w">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_60lh0LxwEfG9aNaFI4rN9w" name="Добавление сотрулника" subject="_3XLm0LxwEfG9aNaFI4rN9w"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_YKSQgLxxEfG9aNaFI4rN9w" name="Удаление пользователя" subject="_3XLm0LxwEfG9aNaFI4rN9w"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_aCAnILxxEfG9aNaFI4rN9w" name="Изменение пользователя" subject="_3XLm0LxwEfG9aNaFI4rN9w"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_i4RAsLxyEfG9aNaFI4rN9w" name="Просмотр всех пользователей" subject="_3XLm0LxwEfG9aNaFI4rN9w"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_FocbELxzEfG9aNaFI4rN9w" name="Ведение списка сотрудников" subject="_3XLm0LxwEfG9aNaFI4rN9w">
+      <include xmi:id="_X5uaELxzEfG9aNaFI4rN9w" addition="_60lh0LxwEfG9aNaFI4rN9w"/>
+      <include xmi:id="_YT7p0LxzEfG9aNaFI4rN9w" addition="_YKSQgLxxEfG9aNaFI4rN9w"/>
+      <include xmi:id="_Y3AhsLxzEfG9aNaFI4rN9w" addition="_aCAnILxxEfG9aNaFI4rN9w"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_yjyT0LxxEfG9aNaFI4rN9w" memberEnd="_yjyT0bxxEfG9aNaFI4rN9w _yjy64LxxEfG9aNaFI4rN9w">
+    <ownedEnd xmi:id="_yjyT0bxxEfG9aNaFI4rN9w" type="_MH1A0LEkEfG9aNaFI4rN9w" association="_yjyT0LxxEfG9aNaFI4rN9w"/>
+    <ownedEnd xmi:id="_yjy64LxxEfG9aNaFI4rN9w" association="_yjyT0LxxEfG9aNaFI4rN9w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_zVy_kLxxEfG9aNaFI4rN9w" memberEnd="_zVy_kbxxEfG9aNaFI4rN9w _zVy_krxxEfG9aNaFI4rN9w">
+    <ownedEnd xmi:id="_zVy_kbxxEfG9aNaFI4rN9w" type="_MH1A0LEkEfG9aNaFI4rN9w" association="_zVy_kLxxEfG9aNaFI4rN9w"/>
+    <ownedEnd xmi:id="_zVy_krxxEfG9aNaFI4rN9w" type="_vCdiILxxEfG9aNaFI4rN9w" association="_zVy_kLxxEfG9aNaFI4rN9w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_1PKU8LxxEfG9aNaFI4rN9w" name="A_заведующий кафедрой_удаление пользователя" memberEnd="_1PKU8bxxEfG9aNaFI4rN9w _1PKU8rxxEfG9aNaFI4rN9w">
+    <ownedEnd xmi:id="_1PKU8bxxEfG9aNaFI4rN9w" type="_MH1A0LEkEfG9aNaFI4rN9w" association="_1PKU8LxxEfG9aNaFI4rN9w"/>
+    <ownedEnd xmi:id="_1PKU8rxxEfG9aNaFI4rN9w" type="_FocbELxzEfG9aNaFI4rN9w" association="_1PKU8LxxEfG9aNaFI4rN9w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_lQp0YLxyEfG9aNaFI4rN9w" memberEnd="_lQp0YbxyEfG9aNaFI4rN9w _lQp0YrxyEfG9aNaFI4rN9w">
+    <ownedEnd xmi:id="_lQp0YbxyEfG9aNaFI4rN9w" type="_XCW0sLEkEfG9aNaFI4rN9w" association="_lQp0YLxyEfG9aNaFI4rN9w"/>
+    <ownedEnd xmi:id="_lQp0YrxyEfG9aNaFI4rN9w" type="_i4RAsLxyEfG9aNaFI4rN9w" association="_lQp0YLxyEfG9aNaFI4rN9w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_VIQ_ELxzEfG9aNaFI4rN9w" memberEnd="_VIQ_EbxzEfG9aNaFI4rN9w _VIQ_ErxzEfG9aNaFI4rN9w">
+    <ownedEnd xmi:id="_VIQ_EbxzEfG9aNaFI4rN9w" type="_FocbELxzEfG9aNaFI4rN9w" association="_VIQ_ELxzEfG9aNaFI4rN9w"/>
+    <ownedEnd xmi:id="_VIQ_ErxzEfG9aNaFI4rN9w" type="_XCW0sLEkEfG9aNaFI4rN9w" association="_VIQ_ELxzEfG9aNaFI4rN9w"/>
+  </packagedElement>
+</uml:Model>
